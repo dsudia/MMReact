@@ -20,27 +20,18 @@ var Nav = React.createClass({
           <ul className="menu">
             <li className="menu-text">React Weather App</li>
             <li>
-              <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
+              <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Home</IndexLink>
             </li>
             <li>
-              <Link to="/about" activeClassName="active"  activeStyle={{fontWeight: 'bold'}}>About</Link>
+              <Link to="/login" activeClassName="active"  activeStyle={{fontWeight: 'bold'}}>Login</Link>
             </li>
             <li>
-              <Link to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
+              <Link to="/suggested" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Suggested Matches</Link>
+            </li>
+            <li>
+              <Link to="/my-profile" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Profile</Link>
             </li>
           </ul>
-        </div>
-        <div className="top-bar-right">
-          <form onSubmit={this.onSearch}>
-            <ul className="menu">
-              <li>
-                <input type="search" placeholder="Search weather by city" ref="search"/>
-              </li>
-              <li>
-                <input type="submit" className="button" value="Get Weather"/>
-              </li>
-            </ul>
-          </form>
         </div>
       </div>
     );

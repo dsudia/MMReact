@@ -1,8 +1,11 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
-
-var MMApp = require('MMApp')
+var Main = require('Main')
+var Login = require('Login')
+var SuggestedMatches = require('SuggestedMatches')
+var MyProfile = require('MyProfile')
+var Landing = require('Landing')
 
 // Load foundation
 $(document).foundation();

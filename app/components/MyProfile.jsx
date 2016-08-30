@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Landing = (props) => {
+var MyProfile = (props) => {
   return (
     <div>
       <h1 className="text-center page-title">About</h1>
@@ -25,4 +25,4 @@ var Landing = (props) => {
   )
 };
 
-module.exports = Landing;
+module.exports = MyProfile;

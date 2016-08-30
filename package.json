@@ -1,5 +1,5 @@
 {
-  "name": "Montessori Match React front-end",
+  "name": "montessori-match-react",
   "version": "1.0.0",
   "description": "React-based front-end for a job website",
   "main": "index.js",
@@ -28,7 +28,7 @@
     "eslint": "^3.4.0",
     "expect": "^1.14.0",
     "foundation-sites": "^6.2.0",
-    "jquery": "^3.1.0",
+    "jquery": "^2.2.4",
     "karma": "^1.2.0",
     "karma-chrome-launcher": "^2.0.0",
     "karma-mocha": "^1.1.1",
@@ -40,6 +40,6 @@
     "sass-loader": "^4.0.0",
     "script-loader": "^0.7.0",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.13"
+    "webpack": "^1.13.2"
   }
 }
