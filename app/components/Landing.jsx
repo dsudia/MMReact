@@ -1,8 +1,12 @@
 var React = require('react');
+const logo = require('../images/mm-logo')
 
 var Landing = (props) => {
   return (
     <div>
+      <div className='row align-center'>
+          <img className='main-logo' src={logo}/>
+      </div>
       <h1 className="text-center page-title">About</h1>
       <p>
         This is a weather application build on React. I have built this
