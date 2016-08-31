@@ -7,18 +7,15 @@ var SuggestedMatches = require('SuggestedMatches')
 var MyProfile = require('MyProfile')
 var Landing = require('Landing')
 
-// Load foundation
-$(document).foundation();
-
 // App css
 require('style!css!sass!applicationStyles')
 
 ReactDOM.render(
   <Router history={hashHistory}>
-    <Route path="/" component={Main}>
-      <Route path="login" component={Login}/>
-      <Route path="suggested" component={SuggestedMatches}/>
-      <Route path="my-profile" component={MyProfile}/>
+    <Route path='/' component={Main}>
+      <Route path='login' component={Login}/>
+      <Route path='suggested' component={SuggestedMatches}/>
+      <Route path='my-profile' component={MyProfile}/>
       <IndexRoute component={Landing}/>
     </Route>
   </Router>,
