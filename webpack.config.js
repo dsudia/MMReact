@@ -18,15 +18,14 @@ module.exports = {
   output: {
     path: "./build",
     filename: "bundle.js",
-    publicPath: "http://localhost:3000/"
+    publicPath: "http://montmatch-web.herokuapp.com/"
   },
   resolve: {
     root: __dirname,
     modulesDirectories: [
       "node_modules",
       "./app/components",
-      "./app/api",
-      "./app/images"
+      "./app/api"
     ],
     alias: {
       app: "app",
@@ -35,7 +34,7 @@ module.exports = {
       reducers: "app/reducers/reducers.jsx",
       configureStore: "app/store/configureStore.jsx"
     },
-    extensions: ["", ".js", ".jsx", ".png"]
+    extensions: ["", ".js", ".jsx"]
   },
   module: {
     preLoaders: [

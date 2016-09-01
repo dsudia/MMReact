@@ -1,11 +1,10 @@
 var React = require('react');
-const logo = require('../images/mm-logo')
 
 var Landing = (props) => {
   return (
     <div>
       <div className='row align-center'>
-          <img className='main-logo' src={logo}/>
+          <img className='main-logo' src='https://s3-us-west-1.amazonaws.com/montmatch-resources/mm.png'/>
       </div>
       <h1 className='text-center page-title'>Welcome</h1>
       <p>
